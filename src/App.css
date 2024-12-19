@@ -1,0 +1,7 @@
+.custom-swiper .swiper-pagination {
+  position: relative;
+  margin-top: 20px;
+  color: #ef4444;
+
+   /* Increase this value to move the dots further down */
+}
