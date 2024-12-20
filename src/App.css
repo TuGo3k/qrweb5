@@ -5,3 +5,20 @@
 
    /* Increase this value to move the dots further down */
 }
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 10px;
+  color: #fff; /* White color for the arrow icons */
+}
+/* Ensure the navigation arrows are visible and properly styled */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ef4444; /* Red color for the arrows */
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

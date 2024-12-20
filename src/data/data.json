@@ -1,0 +1,225 @@
+{
+    "option1": [
+      {
+        "title": "Massage Therapy",
+        "image": "/s1.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Facials",
+        "image": "/s2.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Pedicures",
+        "image": "/s3.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Manicures",
+        "image": "/s4.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Body Wraps",
+        "image": "/s5.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Waxing & Cosmetics",
+        "image": "/s6.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      }
+    ],
+    "option2": [
+      {
+        "title": "Hair Color",
+        "image": "/s1.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Braids & Twist",
+        "image": "/s2.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Corrective Color",
+        "image": "/s3.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Hair Extension",
+        "image": "/s4.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Hair Cut",
+        "image": "/s5.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Partial Foil",
+        "image": "/s6.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      }
+    ]
+    ,
+    "option3": [
+      {
+        "title": "Eye Brows",
+        "image": "/s1.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Lips",
+        "image": "/s2.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Eye Brow & Lips",
+        "image": "/s3.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Chin & Lips",
+        "image": "/s4.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Side of Face",
+        "image": "/s5.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Lower Leg",
+        "image": "/s6.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      }
+    ]
+    ,
+    "option4": [
+      {
+        "title": "Hand-On Facial",
+        "image": "/s1.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Electrotherapy",
+        "image": "/s2.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Clean up",
+        "image": "/s3.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Anti Ageing",
+        "image": "/s4.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Glow & Radiance",
+        "image": "/s5.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Normal Wash",
+        "image": "/s6.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      }
+    ],
+    "option5": [
+      {
+        "title": "Head",
+        "image": "/s1.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Back",
+        "image": "/s2.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Foot",
+        "image": "/s3.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Aromatherapy",
+        "image": "/s4.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Scrub",
+        "image": "/s5.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      },
+      {
+        "title": "Tissue",
+        "image": "/s6.jpg",
+        "lowprice": 40,
+        "highprice": 80,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with theLorem Ipsum is simply dummy text of the printing and essentially unchanged."
+      }
+    ]
+  }
+  
