@@ -103,13 +103,29 @@ export const Home = () => {
   const selectedData = getSelectedData(); // Get the selected option's data
   const [bg, setBg] = useState(0);
   const Gallery =[
-    {title: "ALL", image: ['./pic1.jps', './pic2.jpg']},
+    
     {title: "HAIR CUT", image: './pic2.jpg'},
     {title: "FOOT", image: './pic3.jpg'},
     {title: "BODY", image: './pic4.jpg'},
-    {title: "MASSAGE", image: './pic4.jpg'},
-    {title: "FACE MASSAGE", image: './pic4.jpg'},
+    {title: "MASSAGE", image: './pic5.jpg'},
+    {title: "FACE MASSAGE", image: './pic6.jpg'},
 ]
+ const [activeCategory, setActiveCategory] = useState("All");
+
+  // Combine all pictures for the "All" category
+  // const allPics = Gallery.flatMap((category) => category.image);
+
+  // Determine the pictures to display
+  // const displayedPics =
+  //   activeCategory === "All"
+  //     ? allPics
+  //     : Gallery.find((category) => category.title === activeCategory)?.image ||
+  //       [];
+   // Determine the pictures to display
+   const displayedPics =
+   activeCategory === "All"
+     ? Gallery // Show all categories
+     : Gallery.filter((category) => category.title === activeCategory); // Filter based on category
  
   return (
     <div className="">
@@ -418,18 +434,83 @@ export const Home = () => {
           taciti sociosqu ad litora torquent per conubia nostra, per inceptos
           himenaeos.
         </p>
-        <div className="flex flex-wrap flex-grow-1 justify-start space-x-4 text-gray-500 text-sm font-medium ">
-        {Gallery.map((category, index) => (
-          <span
-            key={index}
+        {/* <div className="flex flex-wrap flex-grow-1 justify-start space-x-4 text-gray-500 text-sm font-medium ">
+        <button
+          className={`py-2 px-4 rounded ${
+            activeCategory === "All"
+              ? "bg-blue-500 text-white"
+              : "bg-gray-200 text-gray-800"
+          }`}
+          onClick={() => setActiveCategory("All")}
+        >
+          All
+        </button>
+        {Gallery.map((category) => (
+          <button
+            key={category.title}
             className={`cursor-pointer ${
-              category.title === "All" ? "text-pink-500 font-bold" : "hover:text-pink-400"
+               activeCategory === category.title ? "text-pink-500 font-bold" : "hover:text-pink-400"
             }`}
+            
+            onClick={() => setActiveCategory(category.title)}
           >
             {category.title}
-          </span>
+          </button>
         ))}
       </div>
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        {displayedPics.map((pic, index) => (
+          <div key={index} className="bg-gray-100 rounded shadow">
+            <img
+              src={pic}
+              alt=""
+              className="w-full h-40 object-cover rounded"
+            />
+          </div>
+        ))}
+      </div> */}
+      <div className="p-4">
+      {/* Category Buttons */}
+      <div className="flex flex-wrap  text-sm font-medium mb-4">
+        <button
+          className={`py-2 px-4 rounded ${
+            activeCategory === "All"
+              ? " text-pink-500"
+              : " text-gray-800"
+          }`}
+          onClick={() => setActiveCategory("All")}
+        >
+          All
+        </button>
+        {Gallery.map((gallery) => (
+          <button
+            key={gallery.title}
+            className={`py-2 px-4 rounded cursor-pointer ${
+              activeCategory === gallery.title
+                ? "text-pink-500 "
+                : " text-gray-800 hover:bg-gray-300"
+            }`}
+            onClick={() => setActiveCategory(gallery.title)}
+          >
+            {gallery.title}
+          </button>
+        ))}
+      </div>
+
+      {/* Gallery Grid */}
+      <div className="">
+        {displayedPics.map((category, index) => (
+          <div key={index} className="bg-gray-100 rounded shadow">
+            <img
+              src={category.image}
+              alt={category.title}
+              className="w-full h-40 object-cover rounded"
+            />
+            
+          </div>
+        ))}
+      </div>
+    </div>
     </div>
     </div>
   );
