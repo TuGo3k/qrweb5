@@ -22,3 +22,15 @@
   align-items: center;
   justify-content: center;
 }
+.custom-swiper2 .swiper-pagination {
+  position: relative;
+  margin-top: 25px;
+  color: "red";/* Change the color of the dots */
+   /* Increase this value to move the dots further down */
+}
+.swiper-pagination {
+  position: relative;
+  margin-top: 25px;
+  color: "red";/* Change the color of the dots */
+   /* Increase this value to move the dots further down */
+}
