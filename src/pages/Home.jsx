@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import data from "../data/data.json";
 import ContactInfo from "../components/ContactInfo";
 import { WhatPeopleSay } from "../components/WhatPeopleSay";
@@ -21,6 +21,12 @@ import { OurServices } from "../components/OurServices";
 import { Welcome } from "../components/Welcome";
 import { Status } from "../components/Status";
 import { OurClient } from "../components/OurClient";
+import { ReactComponent as Woman } from "../assets/svg/woman.svg";
+import { ReactComponent as EyeMakeUp } from "../assets/svg/eye-makeup.svg";
+import { ReactComponent as FemaleHair } from "../assets/svg/female-hair.svg";
+import { ReactComponent as Facial } from "../assets/svg/facial.svg";
+import { ReactComponent as Massage } from "../assets/svg/massage.svg";
+// import {video } from "./video.webm";
 
 export const Home = () => {
   const categories = [
@@ -31,11 +37,11 @@ export const Home = () => {
   ];
 
   const PriceCat = [
-    { index: 0, title: "SPA", svg: "./woman.svg" },
-    { index: 1, title: "HAIR MAKEUP", svg: "./eye-makeup.svg" },
-    { index: 2, title: "WAXING", svg: "./female-hairs.svg" },
-    { index: 3, title: "FACIAL", svg: "./facial.svg" },
-    { index: 4, title: "MASSAGE", svg: "./massage.svg" },
+    { index: 0, title: "SPA", svg: <Woman /> },
+    { index: 1, title: "HAIR MAKEUP", svg: <EyeMakeUp /> },
+    { index: 2, title: "WAXING", svg: <FemaleHair /> },
+    { index: 3, title: "FACIAL", svg: <Facial /> },
+    { index: 4, title: "MASSAGE", svg: <Massage /> },
   ];
 
   const [bg, setBg] = useState(0);
@@ -64,15 +70,51 @@ export const Home = () => {
   const unselected =
     "bg-white w-full flex justify-center flex-col items-center border-2 py-3 gap-5 text-[#ec4899]";
 
+  const [isScrolled, setIsScrolled] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50); // Check if scrolled down
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className="">
-      <div className="navbar w-full bg-purple-500 flex justify-between py-5 px-[5%] items-center">
-        <img className="h-5" src="./logo.png"></img>
-        <GiHamburgerMenu className="size-7" />
+      <div
+        className={`navbar w-full ${
+          isScrolled ? "bg-[#1a1a1a]" : "bg-none"
+        } fixed top-0 z-50 flex justify-between py-5 px-[5%] items-center transition-all duration-300`}
+      >
+        <img className="h-5" src="./logo.png" alt="Logo" />
+        <GiHamburgerMenu className="text-white text-xl" />
       </div>
-      <div className="video w-full  relative h-screen z-[-10] bg-green-600 ">
-        {/* <ReactPlayer className="bg-cover h-full" url='https://www.youtube.com/watch?v=LXb3EKWsInQ' /> */}
-        <iframe className="w-full absolute bg-cover bg-center" src="https://www.youtube.com/watch?v=c5qXrUPm6e4&list=RDc5qXrUPm6e4&start_radio=1"></iframe> 
+
+      {/* YouTube Video Background */}
+      <div className="relative w-full h-screen bg-cover bg-center overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full">
+          <iframe
+            className="w-[200vw] h-[200vh] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 object-cover"
+            src={'/video.webm'}
+            frameBorder="0"
+            allow="autoplay; loop; muted; fullscreen"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        {/* Content Overlay */}
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+          <div className="text-center text-white">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+              Welcome to My Site
+            </h1>
+            <p className="text-lg md:text-xl">
+              Creating immersive experiences with videos in the background.
+            </p>
+          </div>
+        </div>
       </div>
       <Welcome />
       <OurServices />
@@ -93,16 +135,14 @@ export const Home = () => {
           taciti sociosqu ad litora torquent per conubia nostra, per inceptos
           himenaeos.
         </p>
-        <div className="flex w-full  font-semibold">
+        <div className="flex w-full font-semibold">
           <Swiper
             modules={[Pagination, Autoplay, Navigation]}
-            // pagination={{ clickable: true }}
-            // autoplay={{ delay: 3000 }}
             navigation
             loop={true}
             spaceBetween={20}
             slidesPerView={2}
-            className="custom-swiper "
+            className="custom-swiper"
           >
             {PriceCat.map((item, index) => (
               <SwiperSlide key={index}>
@@ -111,15 +151,17 @@ export const Home = () => {
                     setChosen(index);
                     setBg(0); // Reset bg when a new chosen index is set
                   }}
-                  className={`p-4 rounded-lg cursor-pointer  ${
+                  className={`p-4 rounded-lg cursor-pointer ${
                     chosen === index ? selected : unselected
                   }`}
                 >
-                  <img
-                    className="w-[60px] mx-auto"
-                    src={item.svg}
-                    alt={item.title}
-                  />
+                  {/* Render the inline SVG */}
+                  <div className="w-[60px] mx-auto">
+                    {React.cloneElement(item.svg, {
+                      className: "w-[60px] h-[60px]",
+                      fill: chosen === index ? "white" : "#ec4899",
+                    })}
+                  </div>
                   <h2 className="text-center mt-2">{item.title}</h2>
                 </div>
               </SwiperSlide>
@@ -171,7 +213,7 @@ export const Home = () => {
       <Status />
       <OurExperts />
       <SpecialOffer />
-      <OurGallery />
+      <OurGallery/>
       <OurPrice />
       <OurProduct />
       <WhatPeopleSay />
