@@ -9,9 +9,9 @@ export const OurPrice = () => {
           services: [
             "✔ Phone & Email Support",
             "✘ 3 Social Account",
-            "Branded Reports",
-            "Unlock rewards",
-            "Support Forum",
+            "✘ Branded Reports",
+            "✘ Unlock rewards",
+            "✔ Support Forum",
           ],
         },
         {

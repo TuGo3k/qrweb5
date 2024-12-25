@@ -4,11 +4,11 @@ import ReactCardFlip from "react-card-flip";
 
 export const OurGallery = ({ chosen }) => {
   const Gallery = [
-    { title: "HAIR CUT", image: "./pic2.jpg", text: "1" },
-    { title: "FOOT", image: "./pic3.jpg", text: "2" },
-    { title: "BODY", image: "./pic4.jpg", text: "3" },
-    { title: "MASSAGE", image: "./pic5.jpg", text: "4" },
-    { title: "FACE MASSAGE", image: "./pic6.jpg", text: "5" },
+    { title: "HAIR CUT", image: "./pic2.jpg", text: "Lorem ipsum dolor sit amet, consectetur adipiscing" },
+    { title: "FOOT", image: "./pic3.jpg", text: "Lorem ipsum dolor sit amet, consectetur adipiscing" },
+    { title: "BODY", image: "./pic4.jpg", text: "Lorem ipsum dolor sit amet, consectetur adipiscing" },
+    { title: "MASSAGE", image: "./pic5.jpg", text: "Lorem ipsum dolor sit amet, consectetur adipiscing" },
+    { title: "FACE MASSAGE", image: "./pic6.jpg", text: "Lorem ipsum dolor sit amet, consectetur adipiscing" },
   ];
 
   const [activeCategory, setActiveCategory] = useState("All");
@@ -121,7 +121,7 @@ export const OurGallery = ({ chosen }) => {
                   e.stopPropagation(); // Prevent triggering outside click
                   setFlippedIndex(null);
                 }}
-                className="w-full h-52 bg-pink-600 text-white font-semibold flex flex-col items-center justify-center rounded shadow-md space-y-4 cursor-pointer"
+                className="w-full border-2 border-pink-600 h-52  font-semibold flex flex-col items-center justify-center rounded shadow-md space-y-4 cursor-pointer"
               >
                 <h2 className="text-2xl">{category.title}</h2>
                 <p>{category.text}</p>

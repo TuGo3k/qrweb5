@@ -96,7 +96,7 @@ export const Home = () => {
       <div className="relative w-full h-screen bg-cover bg-center overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full">
           <iframe
-            className="w-[200vw] h-[200vh] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 object-cover"
+            className="w-full h-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 object-cover bg-center"
             src={'/video.webm'}
             frameBorder="0"
             allow="autoplay; loop; muted; fullscreen"
